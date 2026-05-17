@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- import jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="/js/index.js"></script>
+</head>
+
+<header>
+  <h1>Memory Game</h1>
+  <p id="starting_message">Click start to find the matching pairs.</p>
+  <button id="start_button">Start Game</button>
+  <button id="reset_button">Reset Game</button>
+  <button id="theme">Dark mode or Light mode</button>
+  <div id="difficulty">
+    <p>Difficulty:</p>
+    <button id="easy_mode">Easy Mode</button>
+    <button id="medium_mode">Medium Mode</button>
+    <button id="hard_mode">Hard Mode</button>
+  </div>
+</header>
+
+<body>
+  <div id="stats">
+    <p id="score">Score: 0</p>
+    <p id="timer">Time: 0s</p>
+    <p id="clicks">Clicks: 0</p>
+    <p id="num_pairs_left">Pairs Left: 0</p>
+    <p id="pairs_matched">Pairs Matched: 0</p>
+    <p id="total_pairs">Total Pairs: 0</p>
+  </div>
+  <button id="power_up">Use Power-Up</button>
+  <div id="game_grid">  
+  </div>
+</body>
+
+</html>
